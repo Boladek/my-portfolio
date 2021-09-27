@@ -3,7 +3,7 @@ import './Contact.css';
 import profilePictureMaker from '../../assets/ProfilePictureMaker.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../../components/Footer/Footer';
 
 export default function Contact() {
@@ -14,10 +14,10 @@ export default function Contact() {
                 <div className="picture">
                     <img src={profilePictureMaker} alt="imagess"></img>
                 </div>
-                <div>
+                <div className="dev-text">
                     <h1>MUBARAK BOLAJI ADEKUNLE</h1>
                 </div>
-                <div>
+                <div className="dev-text">
                     <h2>Software Developer</h2>
                 </div>
                 <div>

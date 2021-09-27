@@ -1,6 +1,6 @@
 .contacts-page {
     background-color: #241f39;
-    height: 100vh;
+    min-height: 100vh;
     color: #fff;
     font-family: Arvo;
 }
@@ -32,5 +32,20 @@
 
 .contacts .socials:hover {
     cursor: pointer;
-    color: 
+}
+
+@media screen and (max-width: 600px) {
+    .contacts-page .contacts .picture {
+        height: 14em;
+        width: 14em;
+    }
+
+    .contacts {
+        margin-top: 3rem;
+    }
+
+    .dev-text {
+        text-align: center;
+        margin-top: 1rem;
+    }
 }
