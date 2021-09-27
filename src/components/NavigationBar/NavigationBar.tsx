@@ -23,7 +23,7 @@ export default function NavigationBar() {
                 <FontAwesomeIcon icon={faBars} onClick={showSidebar} />
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu-close'}>
                 <ul className="nav-menu-items">
-                    <li className="small-screen"><Link to="/">Close</Link></li>
+                    <li className="small-screen"><Link to="/">Home</Link></li>
                     <li className="small-screen"><Link to="/about">About</Link></li>
                     <li className="small-screen"><Link to="/contact">Contact</Link></li>
                     <li className="small-screen"><Link to="/resume">Resume</Link></li>
