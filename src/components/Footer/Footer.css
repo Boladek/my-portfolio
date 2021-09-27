@@ -1,0 +1,10 @@
+.footer-section {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-section footer {
+    text-align: center;
+    width: 100%;
+}

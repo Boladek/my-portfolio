@@ -1,0 +1,29 @@
+.welcome {
+    display: flex;
+    font-family: Arvo;
+    text-align: center;
+    width: 100%;
+}
+
+.welcome .left {
+    height: 100%;
+    width: 100%;
+    padding-left: 1.5rem;
+}
+
+.welcome .left h1 {
+    font-size: 5rem;
+    margin-bottom: 0.4rem;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.welcome .left p {
+    
+}
+
+.welcome .left h3 {
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
