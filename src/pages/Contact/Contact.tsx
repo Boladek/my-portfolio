@@ -2,8 +2,9 @@ import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import './Contact.css';
 import profilePictureMaker from '../../assets/ProfilePictureMaker.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Footer from '../../components/Footer/Footer';
 
 export default function Contact() {
     return (
@@ -25,6 +26,7 @@ export default function Contact() {
                     <span className="socials"><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mubarak-bolaji-7a6268189/"><FontAwesomeIcon icon={faLinkedin} /></a></span>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

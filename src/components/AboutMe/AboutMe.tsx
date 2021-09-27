@@ -12,10 +12,10 @@ export default function AboutMe() {
             <div className="description-container">
                 <div className="text-container">
                     <h1>FULLSTACK DEVELOPER</h1>
-                    <h3></h3>
+                    <h3><FontAwesomeIcon icon={faNodeJs} /></h3>
                 </div>
                 <div className="image-container">
-                    <img src={displayPic}></img>
+                    <img src={displayPic} alt="displayPicture" />
                 </div>
             </div>
             <div className="second-description-container">
@@ -62,7 +62,7 @@ export default function AboutMe() {
                         </div>
                     </div>
                     <div className="details">
-                        {/* <p>contact me at</p> */}
+                        <p>A committed software developer, totally dedicated to building software applications in the most innovative and efficient manner possible. I adapt to the latest technological advancements and build software with them. Solving modern problems with modern tools. <b>Checkout my github here <em> &rarr; </em><a target="_blank" rel="noreferrer" href="https://github.com/Boladek"><FontAwesomeIcon icon={faGithub} /></a></b></p>
                     </div>
                 </div>
                 </div>

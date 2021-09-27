@@ -1,15 +1,15 @@
-import React from 'react';
 import './Welcome.css';
+import homePagePic from '../../assets/homePagePic.jpg';
 
 export default function Welcome() {
     return (
         <div className="welcome">
             <div className="left">
-                <h1>Software Developer</h1>
-                <p>Nice to e-meet you! My name is Mubarak.</p>
-                <h3>Solving software problems with the latest technologies available</h3>
+                <h1>I am MUBARAK ADEKUNLE</h1>
+                <p>Hello, I am Mubarak Adekunle (a.k.a BOLADEK). I am a fullstack NodeJs develop. I enjoy using the latest technologies to develop softwares.</p>
             </div>
             <div className="right">
+                <img src={homePagePic} alt="home-page-pic" />
             </div>
         </div>
     )

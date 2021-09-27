@@ -1,15 +1,14 @@
-import React from 'react';
 import './Home.css';
 import Welcome from '../../components/Welcome/Welcome';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
+import Footer from '../../components/Footer/Footer';
 
 export default function Home() {
     return (
-        <>
-        <NavigationBar />
-        <div className="home">
+        <div className="home-page">
+            <NavigationBar />
             <Welcome />
+            <Footer />
         </div>
-        </>
     )
 }
