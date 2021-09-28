@@ -44,17 +44,17 @@
     justify-content: center;
 }
 
-.about-me .frameworks-container {
+.frameworks-container {
     width: 70%;
     display: flex;
     flex-wrap: wrap;
-    /* justify-items: center; */
     justify-content: center;
 }
 
-.about-me .frameworks-container .framework {
+.framework {
     font-size: 60px;
-    margin-left: 5%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .frameworks-details {
@@ -85,4 +85,64 @@ margin-bottom: 2%;
 
 @media screen and (max-width: 600px) {
     /* .about-me .description-container . */
+    .about-me .description-container {
+        display: block;
+        height: 26rem;
+    }
+
+    .about-me .description-container .text-container {
+        width: 100%;
+        height: 10rem;
+    }
+
+    .about-me .description-container .text-container h1 {
+        font-size: 2rem;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .about-me .second-description-container {
+        width: 100%;
+        display: block;
+    }
+
+    .technologies {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .technologies h1 {
+        font-size: 20px;
+    }
+
+    .frameworks-details {
+        display: block;
+    }
+
+    .frameworks-container {
+        display: flex;
+        flex-wrap: nowrap;
+        height: 100px;
+        overflow-x: scroll;
+        margin: 0;
+        width: 100vw;
+    }
+
+    .framework {
+        font-size: 5rem;
+        margin: 5px;
+    }
+
+    .frameworks-details .details {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        line-height: 1.4;
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
 }

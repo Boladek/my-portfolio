@@ -3,7 +3,7 @@ import './Contact.css';
 import profilePictureMaker from '../../assets/ProfilePictureMaker.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../../components/Footer/Footer';
 
 export default function Contact() {
