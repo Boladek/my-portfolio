@@ -1,4 +1,12 @@
 .about-page {
     background-color: #241f39;
     font-family: Arvo;
+    min-height: 120vh;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .about-page {
+        min-height: 145vh;
+    }
 }

@@ -2,4 +2,11 @@
     background-color: #241f39;
     height: 100vh;
     font-family: Arvo;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .home-page {
+        min-height: 112vh;
+    }
 }
