@@ -12,7 +12,7 @@ export default function NavigationBar() {
     const showSidebar = () => setSidebar(!sidebar);
 
     return (
-        <div className="navigation-bar">
+        <nav>
             <h1><Link to="/" className="home">Boladek.</Link></h1>
             <ul className="bigger-screen">
                 <li className="big-screen"><Link to="/about">About</Link></li>
@@ -28,8 +28,8 @@ export default function NavigationBar() {
                     <li className="small-screen"><Link to="/contact">Contact</Link></li>
                     <li className="small-screen"><Link to="/resume">Resume</Link></li>
                 </ul>
-            </nav>
+                </nav>
             </div>
-        </div>
+        </nav>
     )
 }
